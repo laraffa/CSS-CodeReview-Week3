@@ -1,3 +1,4 @@
+
 header {
   background-image: url(../img/main.jpg);
   max-width: 100%;
@@ -5,6 +6,16 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+
+  @media #{$brk-medium} {
+    height: 40vh;
+  }
+}
+
+.gone {
+  @media #{$brk-medium} {
+    display: none;
+  }
 }
 
 .titleWords {
@@ -12,6 +23,9 @@ header {
   flex-direction: column;
   align-items: center;
   padding-top: 25vh;
+  @media #{$brk-medium} {
+    padding: 10px;
+  }
 }
 
 .list1 a {
@@ -21,7 +35,7 @@ header {
   text-transform: uppercase;
 }
 
-ul {
+ .list1 {
   display: flex;
   justify-content: space-around;
   align-items: baseline;
@@ -35,20 +49,31 @@ h1 {
   font-size: 100px;
   font-family: times;
   margin: 0;
+  @media #{$brk-medium} {
+    font-size: 50px;
+  }
 }
 
 h2 {
   color: white;
   text-transform: uppercase;
+  font-weight: lighter;
   font-family: 'Fjalla One', sans-serif;
   margin: 0;
-
+  @media #{$brk-medium} {
+    font-size: 15px;
+  }
 }
 
 nav {
   width: 80%;
   margin:auto;
 }
+
+.fa-chevron-down {
+  font-size: 12px;
+}
+
 .list1 li {
 flex: 1;
 padding: 5px 0;

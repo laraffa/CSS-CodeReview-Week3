@@ -1,3 +1,9 @@
+.container {
+  @media #{$brk-narrow} {
+    background-color: #d1d1c9;
+  }
+}
+
 .trip {
   height:420px;
   max-width: 100%;

@@ -1,3 +1,7 @@
+@media (max-width: 770px) {
+  .container {
+    background-color: #d1d1c9; } }
+
 .trip {
   height: 420px;
   max-width: 100%; }
@@ -51,23 +55,47 @@
 
 .mid-wrapper {
   width: 100%;
-  height: 20em;
+  height: 8em;
   background-color: #313131; }
+  @media (max-width: 1080px) {
+    .mid-wrapper {
+      display: none; } }
 
 .list2 {
   padding-top: 15px;
-  width: 80%; }
+  display: flex;
+  width: 100%;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-family: 'Open Sans', sans-serif; }
+
+#list-style {
+  border-left: 1px solid #bdbdb7;
+  padding-left: 10px;
+  color: #dc7725; }
+
+.bottom-nav {
+  display: flex;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black; }
 
 .list2 li {
   padding: 5px 0;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Fjalla One', sans-serif;
-  list-style: none; }
-
+  list-style: none;
+  margin-right: 1em; }
 .list2 a {
   list-style: none;
   text-decoration: none;
-  color: white; }
+  color: #bdbdb7; }
+
+.fa-search {
+  opacity: .5; }
+
+.list2 li:nth-child(5) {
+  display: flex;
+  flex: 3; }
 
 header {
   background-image: url(../img/main.jpg);
@@ -76,12 +104,22 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
+  @media (max-width: 1080px) {
+    header {
+      height: 40vh; } }
+
+@media (max-width: 1080px) {
+  .gone {
+    display: none; } }
 
 .titleWords {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 25vh; }
+  @media (max-width: 1080px) {
+    .titleWords {
+      padding: 10px; } }
 
 .list1 a {
   list-style: none;
@@ -89,7 +127,7 @@ header {
   color: white;
   text-transform: uppercase; }
 
-ul {
+.list1 {
   display: flex;
   justify-content: space-around;
   align-items: baseline;
@@ -102,16 +140,26 @@ h1 {
   font-size: 100px;
   font-family: times;
   margin: 0; }
+  @media (max-width: 1080px) {
+    h1 {
+      font-size: 50px; } }
 
 h2 {
   color: white;
   text-transform: uppercase;
+  font-weight: lighter;
   font-family: 'Fjalla One', sans-serif;
   margin: 0; }
+  @media (max-width: 1080px) {
+    h2 {
+      font-size: 15px; } }
 
 nav {
   width: 80%;
   margin: auto; }
+
+.fa-chevron-down {
+  font-size: 12px; }
 
 .list1 li {
   flex: 1;
