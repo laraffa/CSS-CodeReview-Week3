@@ -8,7 +8,8 @@
   @media (max-width: 770px) {
     .trip {
       margin: 15px;
-      border-radius: 5px; } }
+      border-radius: 5px;
+      display: flex; } }
 
 .row1, .row2 {
   display: flex;
@@ -121,6 +122,24 @@ header {
     .titleWords {
       padding: 10px; } }
 
+.titleWords p {
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  text-transform: uppercase;
+  background-color: #dc7725;
+  padding-left: 33px;
+  padding-right: 33px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 3px;
+  margin-top: 350px; }
+  @media (max-width: 1080px) {
+    .titleWords p {
+      margin-top: 90px; } }
+  @media (max-width: 770px) {
+    .titleWords p {
+      display: none; } }
+
 .list1 a {
   list-style: none;
   text-decoration: none;
@@ -180,6 +199,13 @@ nav {
   font-family: times;
   font-size: 25px;
   text-transform: uppercase; }
+  @media (max-width: 770px) {
+    .title {
+      font-size: 18px; } }
+
+@media (max-width: 770px) {
+  .fa-paw {
+    display: none; } }
 
 .trip1, .trip2, .trip3, .trip4, .trip5, .trip6 {
   background-repeat: no-repeat;

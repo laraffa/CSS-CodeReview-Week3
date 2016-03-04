@@ -10,6 +10,7 @@
   @media #{$brk-narrow} {
     margin: 15px;
     border-radius: 5px;
+    display: flex;
   }
 }
 .row1, .row2 {
