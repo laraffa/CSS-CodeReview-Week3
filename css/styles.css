@@ -189,7 +189,7 @@ nav {
   justify-content: center; }
   .trip1:hover a, .trip2:hover a, .trip3:hover a, .trip4:hover a, .trip5:hover a, .trip6:hover a {
     transform: scale(1.4);
-    transition: all 1s ease-in-out; }
+    transition: all .5s ease-in-out; }
   .trip1 a, .trip2 a, .trip3 a, .trip4 a, .trip5 a, .trip6 a {
     align-self: center;
     height: 90px;
