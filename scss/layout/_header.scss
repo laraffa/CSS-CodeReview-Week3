@@ -6,7 +6,6 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-
   @media #{$brk-medium} {
     height: 40vh;
   }
@@ -124,4 +123,21 @@ list-style: none;
   @media #{$brk-narrow} {
     display: none;
   }
+}
+
+.show {
+  display: none;
+  @media #{$brk-medium} {
+    display: flex;
+  }
+}
+
+.show:hover .listbg {
+  display: flex;
+}
+
+.listbg {
+  background:rgba(255,255,255, 0.4);
+  padding: 30px;
+  display: none;
 }

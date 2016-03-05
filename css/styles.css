@@ -7,7 +7,7 @@
   max-width: 100%; }
   @media (max-width: 770px) {
     .trip {
-      margin: 15px;
+      margin: 12px;
       border-radius: 5px;
       display: flex; } }
 
@@ -30,6 +30,9 @@
   @media (max-width: 1080px) {
     .trip1 {
       flex: 1 1 100%; } }
+  @media (max-width: 770px) {
+    .trip1 {
+      margin-top: 20px; } }
 
 .trip2 {
   background-image: url(../img/pic3.jpg);
@@ -206,6 +209,20 @@ nav {
 @media (max-width: 770px) {
   .fa-paw {
     display: none; } }
+
+.show {
+  display: none; }
+  @media (max-width: 1080px) {
+    .show {
+      display: flex; } }
+
+.show:hover .listbg {
+  display: flex; }
+
+.listbg {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 30px;
+  display: none; }
 
 .trip1, .trip2, .trip3, .trip4, .trip5, .trip6 {
   background-repeat: no-repeat;

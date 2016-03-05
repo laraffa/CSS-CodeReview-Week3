@@ -8,7 +8,7 @@
   height:420px;
   max-width: 100%;
   @media #{$brk-narrow} {
-    margin: 15px;
+    margin: 12px;
     border-radius: 5px;
     display: flex;
   }
@@ -34,6 +34,9 @@
   flex: 2;
   @media #{$brk-medium} {
     flex: 1 1 100%;
+  }
+  @media #{$brk-narrow} {
+  margin-top: 20px;
   }
 }
 
